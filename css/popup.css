@@ -1,0 +1,78 @@
+.container{
+    font-family: Raleway;
+    padding-top: 10vh;
+    overflow: hidden;
+}
+
+.container button{
+    margin:0 46%;
+}
+.modal-overlay{
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background-color: rgba(1, 1, 1, 0.725);
+    z-index: 100;
+    overflow: auto;
+}
+.modal-overlay.modal-open{
+    display: block;
+}
+.modal-wrap{
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    display: none;
+    background: #fff;
+    z-index: 200;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+}
+.modal-wrap.modal-open{
+    display: block;
+}
+.modal-close{
+    margin-left: 364px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+}
+button{
+    background: transparent;
+    border: 2px solid #000;
+    padding: 15px 20px;
+    border-radius: 22px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+
+}
+ul ul{
+    display:none;
+    padding: 5% 25%;
+}
+ul.active{
+    display: block;
+}
+li{
+    padding: 0;
+}
+
+.menus{
+    padding: 100px ;
+    display: flex;
+}
